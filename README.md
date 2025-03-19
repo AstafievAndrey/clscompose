@@ -5,7 +5,7 @@ A utility for constructing className strings conditionally.
 ## Example
 
 ```js
-import clscompose from "clscompose";
+import {clscompose} from "clscompose";
 // Strings (variadic)
 clscompose("foo", true && "bar", "baz");
 //=> 'foo bar baz'
